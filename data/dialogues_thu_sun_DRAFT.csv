@@ -1,0 +1,24 @@
+day,npc,speaker,text,choice_options,clue_given
+Thursday,Technician,Technician,"Hey, courier. We're installing CCTV for the management. Which floors have blind spots?","Tell the truth | Lie: say there are none | Say nothing",
+Thursday,Technician,Technician,"Funny. Nobody asked for cameras on the 4th floor. Only on the corridors of the delinquent kid.",,Cameras target the delinquent student
+Thursday,Grocery Lady,Grocery Lady,"Unit 202? Oh, it's haunted for sure. I hear it every night. Don't go near it.","Ask more | Ignore her",
+Thursday,Grocery Lady,Grocery Lady,"...Between us, I made half of it up. But people like a story. Who is going to check?",,Ghost rumors about 202 are fabricated
+Thursday,Honor Student,Honor Student,"Delivery? Thanks. Say, how is he doing? You know... him. Upstairs. Does he look okay to you?","Say he looks fine | Say he looks hurt | Say you do not know",
+Thursday,Delinquent,Delinquent,"Don't look at me like that. Everyone is watching me now. Even the walls.","Ask if he is okay | Hand over the parcel and leave",
+Thursday,Delinquent,Delinquent,"They want me to stay quiet. It is easier when nobody believes me.",,Signs of tracking and psychological abuse
+Thursday,Fortune Teller,Fortune Teller,"Sit. Room 202. Years ago a student was hurt there, and the adults chose not to see it. The same pattern is back.","Ask who | Ask why nobody acted",
+Thursday,Fortune Teller,Fortune Teller,"The names were removed from the registry. Look at the old delivery manifests.",,Murder/abuse case in Room 202 (manifest link)
+Friday,Rollers Lady,Rollers Lady,"Thud, thud, thud. Right over my head, every second night. You do not believe me, do you?","Believe her | Dismiss it",
+Friday,Rollers Lady,Rollers Lady,"Always after dark. Always the same rhythm. Like somebody practicing.",,Rhythmic thuds above every other night
+Friday,Honor's Mother,Honor's Mother,"My son does not take deliveries. He is busy. Studying. Please leave the parcel here.","Insist on delivering to him | Leave it with her",
+Friday,Honor's Mother,Honor's Mother,"He hides when the bell rings. I do not ask why. I... I am afraid of the answer.",,Honor student avoids deliveries (hiding something)
+Friday,Couple,Husband,"We are leaving tonight. We can't take it anymore. You should leave too.","Ask where they are going | Ask what they saw",
+Friday,Couple,Wife,"Please do not write our names in your report. Please.","Promise to protect them | Say you must report | Say nothing",
+Friday,Street Thug,Street Thug,"You are close, courier. Fourth floor. The thing nobody wants you to see. I can get you in tomorrow.",,Access to the 4th floor
+Saturday,Grocery Lady,Grocery Lady,"The guard? He has a sweet tooth. Never says no to pastries.",,Lure step 1: the guard loves sweets
+Saturday,Chubby Lady,Chubby Lady,"Pastries for the guard? Fine, I will bake. But I am out of flour and sugar.",,Lure step 2: needs ingredients
+Saturday,Elderly Couple,Elderly Husband,"Flour and sugar? Take it, dear. For the boy, I would give the whole kitchen.",,Lure step 3: ingredients obtained
+Saturday,Fortune Teller,Fortune Teller,"Before nightfall tomorrow, someone will be gone for good. Make sure it is not the one you can still save.","Ask who | Leave",
+Sunday,Guard,Security Guard,"Mmm... those pastries. Fine, five minutes. Do not touch anything.",,Guard leaves his post
+Sunday,Delinquent,Delinquent,"You came back. I did not think anyone would.","Open the door and take him out | Leave him there | Report him to the agency","Sets delinquent_saved = true on the first option"
+Sunday,Dispatcher,Dispatcher,"Final report. Be careful what you write. We read everything.","File report (opens the report form) | Walk out",
