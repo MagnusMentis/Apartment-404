@@ -1,7 +1,7 @@
 extends Control
-## TEST SCENE for Person B. Attach this script to a Control root node, press F6.
-## Lets you play 4 fake days of reports and see which ending you get.
-## Delete it when A and C have connected the real game.
+## TEST SCENE for me. I attach this script to a Control root node, and press F6 to see if it works.
+## Permit the player to play 4 fake days of reports and see which ending he gets.
+## This file can be delete when the others (A and C) have connected the real game.
 
 var day := 1
 var form: ReportForm

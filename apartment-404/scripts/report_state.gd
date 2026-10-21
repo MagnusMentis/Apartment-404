@@ -9,7 +9,7 @@ signal evidence_sent_signal   # evidence submitted to Child Protection
 # Columns of the report form
 enum Choice { TRUTH, FALSE, PROTECT }
 
-# ---- Rules (change them here, nowhere else) --------------------------------
+# ---- Rules (can be change here but nowhere else) --------------------------------
 const STREAK_LIMIT := 3        # same column ticked this many times in a row = Bad Ending
 const BALANCE_MIN := 0.30      # Good Ending: share of truthful answers must be
 const BALANCE_MAX := 0.70      #   between 30% and 70% ("half true, half false")
