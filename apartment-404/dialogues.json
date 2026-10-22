@@ -1,0 +1,268 @@
+{
+  "day": "Monday",
+  "dialogues": [
+    {
+      "id": "mon_security",
+      "character": "security_guard",
+      "speaker": "Bác bảo vệ",
+      "lines": [
+        "Chú mới nhận tuyến ở khu này phải không? Có một luật cần nhớ.",
+        "Đơn nào cũng phải giao tận cửa từng phòng. Đừng để hàng ở sảnh, kể cả khách bảo cứ để đó.",
+        "Cứ gõ cửa, xác nhận người nhận rồi ghi lại kết quả vào báo cáo cuối ngày."
+      ],
+      "choices": [
+        {
+          "text": "Cháu hiểu rồi, sẽ giao tận cửa.",
+          "set_flag": {
+            "key": "heard_delivery_rule",
+            "value": true
+          },
+          "next_id": null
+        },
+        {
+          "text": "Nếu không ai mở cửa thì sao ạ?",
+          "set_flag": {
+            "key": "asked_delivery_rule",
+            "value": true
+          },
+          "next_id": "mon_security_no_answer"
+        }
+      ]
+    },
+    {
+      "id": "mon_security_no_answer",
+      "character": "security_guard",
+      "speaker": "Bác bảo vệ",
+      "lines": [
+        "Thì ghi là không giao được. Nhưng nhớ nhìn kỹ số phòng trước khi gõ nhé.",
+        "Ở đây có vài cánh cửa trông giống nhau hơn mức cần thiết."
+      ],
+      "choices": [
+        {
+          "text": "Cháu sẽ kiểm tra số phòng cẩn thận.",
+          "set_flag": {
+            "key": "checked_room_numbers",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_grocery_lady",
+      "character": "grocery_lady",
+      "speaker": "Bà tạp hóa",
+      "lines": [
+        "Cậu giao hàng mới à? Lên tầng bốn thì đi thang máy cho nhanh.",
+        "À, trừ khi cậu nghe ai gọi từ phòng 404. Người ta bảo căn đó bỏ trống lâu rồi.",
+        "Chắc chỉ là tiếng ống nước thôi. Chung cư cũ mà, phải không?"
+      ],
+      "choices": [
+        {
+          "text": "Bà từng nghe thấy tiếng gì ở đó sao?",
+          "set_flag": {
+            "key": "asked_grocery_about_404",
+            "value": true
+          },
+          "next_id": "mon_grocery_story"
+        },
+        {
+          "text": "Cháu chỉ giao hàng, không để ý chuyện đó.",
+          "set_flag": {
+            "key": "dismissed_404_rumor",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_grocery_story",
+      "character": "grocery_lady",
+      "speaker": "Bà tạp hóa",
+      "lines": [
+        "Tôi có nghe tiếng gõ cửa ba lần, ngay lúc cửa căn đó không có ai đứng cả.",
+        "Nhưng chuyện này đừng kể là tôi nói nhé. Người trong khu không thích bị hỏi han."
+      ],
+      "choices": [
+        {
+          "text": "Cháu sẽ nhớ lời bà.",
+          "set_flag": {
+            "key": "heard_404_knocking_rumor",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_hair_roller_lady",
+      "character": "hair_roller_lady",
+      "speaker": "Bà cuốn lô",
+      "lines": [
+        "Cậu đang tìm cậu học sinh ở tầng trên à?",
+        "Thằng bé ngoan lắm, học đâu ra đấy. Gặp ai cũng lễ phép, chẳng bao giờ làm phiền hàng xóm.",
+        "Một đứa trẻ như thế thì chắc chắn sẽ có tương lai sáng sủa."
+      ],
+      "choices": [
+        {
+          "text": "Bà biết em ấy thường ở nhà lúc nào không?",
+          "set_flag": {
+            "key": "asked_hair_roller_about_student",
+            "value": true
+          },
+          "next_id": "mon_hair_roller_schedule"
+        },
+        {
+          "text": "Nghe bà kể, em ấy đúng là rất chăm chỉ.",
+          "set_flag": {
+            "key": "heard_student_praise",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_hair_roller_schedule",
+      "character": "hair_roller_lady",
+      "speaker": "Bà cuốn lô",
+      "lines": [
+        "Giờ đó thì tôi không rõ. Nó học hành chăm chỉ nên lịch kín lắm.",
+        "Cậu cứ giao đúng địa chỉ là được."
+      ],
+      "choices": [
+        {
+          "text": "Vâng, cháu sẽ giao đúng địa chỉ.",
+          "set_flag": {
+            "key": "will_deliver_to_student",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_fortune_teller",
+      "character": "fortune_teller",
+      "speaker": "Thầy bói",
+      "lines": [
+        "Cậu có vẻ đang mang theo một món đồ cần đến đúng cánh cửa.",
+        "Phòng 404 có một khoảng lặng rất sâu. Đừng nhầm sự im lặng ấy với việc không có ai ở bên trong.",
+        "Nếu phải gõ, hãy gõ một lần rồi chờ. Đừng đáp lại tiếng gõ thứ hai."
+      ],
+      "choices": [
+        {
+          "text": "Thầy đang nói về căn phòng nào vậy?",
+          "set_flag": {
+            "key": "asked_fortune_teller_about_404",
+            "value": true
+          },
+          "next_id": "mon_fortune_teller_warning"
+        },
+        {
+          "text": "Cháu không tin chuyện bói toán.",
+          "set_flag": {
+            "key": "dismissed_fortune_teller",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_fortune_teller_warning",
+      "character": "fortune_teller",
+      "speaker": "Thầy bói",
+      "lines": [
+        "Cậu biết rồi đấy. Có những căn phòng mang số mà người ta không muốn nhắc đến.",
+        "Cứ giữ bình tĩnh, và đừng giao thứ gì cho một giọng nói mà cậu không nhìn thấy."
+      ],
+      "choices": [
+        {
+          "text": "Cháu sẽ cẩn thận.",
+          "set_flag": {
+            "key": "heard_fortune_teller_warning",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_couple",
+      "character": "couple",
+      "speaker": "Cặp đôi",
+      "lines": [
+        "Hai người đang chờ thang máy. Người phụ nữ mỉm cười khi nghe bạn hỏi đường.",
+        "Người đàn ông nói: Cậu học sinh tầng trên giỏi lắm, lúc nào cũng đứng đầu lớp.",
+        "Cô gái tiếp lời: Ngoan ngoãn, lễ phép nữa. Cả khu ai cũng quý."
+      ],
+      "choices": [
+        {
+          "text": "Hai anh chị thường gặp em ấy à?",
+          "set_flag": {
+            "key": "asked_couple_about_student",
+            "value": true
+          },
+          "next_id": "mon_couple_more"
+        },
+        {
+          "text": "Em ấy được mọi người khen nhiều thật.",
+          "set_flag": {
+            "key": "heard_couple_praise",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_couple_more",
+      "character": "couple",
+      "speaker": "Cặp đôi",
+      "lines": [
+        "Người đàn ông đáp: Có gặp vài lần ở hành lang. Lúc nào cũng chăm chú vào sách vở.",
+        "Cô gái nhìn về phía thang máy vừa mở: Chắc cậu ấy không muốn bị làm phiền đâu."
+      ],
+      "choices": [
+        {
+          "text": "Cảm ơn anh chị, cháu sẽ không làm phiền em ấy.",
+          "set_flag": {
+            "key": "will_respect_student_privacy",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    },
+    {
+      "id": "mon_honor_student",
+      "character": "honor_student",
+      "speaker": "Cậu học sinh giỏi",
+      "lines": [
+        "Cậu học sinh mở cửa vừa đủ để nhận gói hàng.",
+        "Em nhận được rồi, cảm ơn anh. Anh cần em ký xác nhận không?",
+        "Cậu ký tên gọn gàng rồi trả lại bút."
+      ],
+      "choices": [
+        {
+          "text": "Có, em ký vào đây giúp anh nhé.",
+          "set_flag": {
+            "key": "honor_student_received_delivery",
+            "value": true
+          },
+          "next_id": null
+        },
+        {
+          "text": "Không cần đâu, chúc em buổi tối tốt lành.",
+          "set_flag": {
+            "key": "honor_student_received_delivery",
+            "value": true
+          },
+          "next_id": null
+        }
+      ]
+    }
+  ]
+}

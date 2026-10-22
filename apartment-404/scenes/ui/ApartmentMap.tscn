@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://dsgxq12q8fi2p"]
+
+[ext_resource type="Script" uid="uid://nenhfc8gpges" path="res://scenes/ui/ApartmentMap.gd" id="1_j5rg5"]
+
+[node name="ApartmentMap" type="Control" unique_id=743396956]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 41.0
+offset_top = 50.0
+offset_right = 41.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j5rg5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=360173591]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.58100003
+anchor_top = 0.47800002
+anchor_right = 0.58100003
+anchor_bottom = 0.47800002
+offset_left = -270.312
+offset_top = -103.74403
+offset_right = 98.68799
+offset_bottom = 45.60965
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.507912, 1.0511961)
+
+[node name="Label" type="Label" parent="VBoxContainer" unique_id=1901149290]
+layout_mode = 2
+text = "KHU CHUNG CƯ CŨ - CHỌN PHÒNG GIAO HÀNG"
+
+[node name="GuardroomButton" type="Button" parent="VBoxContainer" unique_id=139147490]
+layout_mode = 2
+text = "1. Phòng Bảo Vệ (Tầng trệt)"
+
+[node name="GroceryBtn" type="Button" parent="VBoxContainer" unique_id=1350702149]
+layout_mode = 2
+text = "2. Tiệm Tạp Hóa"
+
+[node name="Room202Btn" type="Button" parent="VBoxContainer" unique_id=1392020548]
+layout_mode = 2
+text = "3. Phòng 202"
+
+[node name="Room404Btn" type="Button" parent="VBoxContainer" unique_id=1850004477]
+layout_mode = 2
+text = "4. Phòng 404"
+
+[node name="FinishShiftBtn" type="Button" parent="VBoxContainer" unique_id=499015318]
+layout_mode = 2
+text = "[KẾT THÚC CA LÀM - NỘP BÁO CÁO]"

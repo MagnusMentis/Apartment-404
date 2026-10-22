@@ -1,0 +1,105 @@
+RMIT GAMEJAM IDEA TÊN NHÓM: Bit’em
+TÊN GAME:
+UNIQUE SELLING POINT:
+●​ Được nhập vai vào một anh shipper vô tình khám phá vụ án tâm linh tại chung cư
+●​ Câu chuyện phân nhánh, khuyến khích người chơi khám phá
+●​ Ranh giới đạo đức do con người chơi quyết định
+●​ Artstyle 2D dị biệt, độc đáo.
+GENRE:
+●​ Nhập vai - nhiều lựa chọn - điều tra
+GAME PLAY:
+●​ CORE LOOP: Nhận nhiệm vụ - giao hàng/ thu thập thông tin - báo cáo - nhận lương
+●​ GAME MECHANICS:
+1.​ Nhập vai - thành shipper khu chung cư cũ
+2.​ Tương tác NPC - mở khóa cốt truyện
+3.​ Nhiều lựa chọn - chọn hướng đi, tạo cốt truyện phân nhánh
+ARTSTYLE:
+●​ 2D kinh dị
+●​ Góc nhìn POV
+TARGET AUDIENCE:
+●​ Từ 16+
+PLATFORM:
+●​ PC
+REF: Don’t feed the monkey, Sally face
+STORY LINE:
+Một thanh niên đang chật vật tìm việc được người quen giới thiệu làm shipper cho
+một công ty giao hàng nhỏ. Công việc mới không có gì phức tạp: nhận đơn, giao hàng tận
+cửa và hoàn thành báo cáo sau mỗi ca. Địa bàn phụ trách của anh là một khu chung cư cũ
+nằm khuất giữa thành phố, mang một vẻ u ám khó tả.
+Những ngày đầu, mọi thứ vẫn diễn ra bình thường. Anh chỉ thấy hơi khó hiểu trước
+những yêu cầu giao hàng kỳ quặc. Cho đến một đêm, anh nghe thấy những tiếng động kì lạ.
+Điều đáng sợ hơn là công ty không hề tỏ ra bất ngờ. Trái lại, quản lý bắt đầu yêu cầu anh
+báo cáo hành vi của một số cư dân được chỉ định. Mỗi lần anh làm theo, công ty lại trả thêm
+một khoản thưởng hậu hĩnh, đồng thời cảnh báo anh không được tiết lộ công việc này với
+bất kỳ ai.
+Khi những dấu hiệu kỳ dị ngày càng xuất hiện dày đặc, anh nhận dường như không
+chỉ đơn thuần là giao hàng. Chúng liên kết với những căn hộ bị niêm phong, những cư dân
+mất tích và các sự kiện đã xảy ra từ nhiều năm trước. Tệ hơn, những báo cáo anh gửi về
+công ty dường như đang khiến khu chung cư thay đổi theo một cách khó giải thích.
+Giờ đây, anh phải lựa chọn giữa việc tiếp tục tuân thủ nhiệm vụ để kiếm tiền, tự mình
+điều tra bí mật của khu chung cư, hoặc tìm cách rời đi trước khi bản thân trở thành một
+phần trong những báo cáo mà công ty đang thu thập.
+LOGLINE:
+Một thanh niên làm shipper tại khu chung cư cũ dần phát hiện những hiện tượng siêu nhiên
+ẩn sau các đơn hàng kỳ quái, trong khi công ty liên tục yêu cầu anh thu thập thông tin bí ẩn
+— buộc anh phải tìm ra sự thật trước khi chính mình trở thành một phần của bí mật nơi đây.
+
+VẤN ĐỀ INSIGHT:
+Sự bạo lực tinh thần và thể chất diễn ra ở những đứa trẻ vị thành niên (15-18 tuổi) có hành
+vi tâm lý vặn vẹo nhưng pháp luật chưa thể giải quyết.
+KỊCH BẢN CỐT TRUYỆN (TUYẾN TÍNH)
+Thứ 2:
+Ông bảo vệ (Luật chơi: phải giao ship tận nhà)
+Bà tạp hóa (Bơm đểu có ma 404):
+Bà cuốn lô (Khen học sinh giỏi):
+Ông thầy bói (Bơm đểu tâm linh 404):
+Cặp đôi (Khen học sinh giỏi):
+Học sinh giỏi:
+Thứ 3:
+Chị xinh đẹp (Bơm đểu tâm linh 404):
+Ông rượu bia (Ghét học sinh cá biệt, nghe tiếng động lạ lúc nói chuyện):
+Ông bà già (Nói đỡ cho học sinh cá biệt):
+Bà mũm mĩm (Khen học sinh giỏi - nói về chú bảo vệ):
+Ông giang hồ (Mang yếu tố giúp tìm hiểu tầng 4):​
+Chủ nhà
+Thứ 4:
+Học sinh cá biệt (Nhận hàng từ học sinh giỏi):
+Sinh viên nghèo ốm (Nói đỡ cho học sinh cá biệt):
+Ông rượu bia (Quạu quọ hơn, lúc này nghe tiếng lạ ở 404):
+Chủ nhà
+Thứ 5 (lắp camera & ông rượu bia out):
+Ông lắp camera (Hỏi chuyện đơn giản):
+Bà tạp hóa (Bơm đểu chuyện ma của phòng 202):
+Học sinh giỏi (Hỏi thăm về học sinh cá biệt):
+Học sinh cá biệt (Phát hiện dấu hiệu):
+Ông thầy bói (Nói về vụ án phòng 202):
+Chị xinh đẹp (Nói về vụ án phòng 202 - chị sợ hãi):
+Thứ 6:
+Bà cuốn lô (Cứ cách một ngày là nghe tiếng động lạ ở tầng trên):
+Ông giang hồ:
+Học sinh giỏi (Gặp mẹ HSG - hỏi tại sao HSG không ra nhận hàng):
+Chủ nhà
+Cặp đôi (Nói về ý định chuyển nhà vì quá sợ):
+Thứ 7:
+Bà tạp hóa (Chỉ cách dụ ông bv):
+Ông bảo vệ (Bị dụ đi lên phòng bà mũm mỉm):
+Bà mũm mỉm (làm bánh cho bảo vệ - cần nguyên liệu ở phòng ông bà già)
+Ông bà già (lấy đồ làm bánh cho bà mũm mỉm)
+
+Ông thầy bói (Bói ra sắp có người chết):
+Sinh viên ốm:
+Chủ nhà
+Chủ nhật: biết được ending
+(Xem hình map discord để hiểu thêm về thứ tự di chuyển giữa các ngày)
+CÁC ENDING:
+●​ BAD ENDING - Làm sai toàn bộ báo cáo -> Shipper died
+●​ GOOD ENDING - Làm giả báo cáo và giải quyết vấn đề -> HSCB được cứu
+●​ RICH ENDING -Vô tâm và làm đúng như những gì công việc yêu cầu -> được thăng
+chức thành kẻ tham tiền
+CÁC LƯU Ý KHÁC:
+●​ Nếu người tick hết 1 cột 3 lần thì bad ending
+●​ Để được good ending thì phải tick nửa đúng nửa sai + thu thập thông tin và báo cho
+Tổ chức bảo vệ trẻ em
+●​ Rich ending xảy ra khi: không cứu được cậu bé HSCB (cho dù có làm giả báo cáo)
+
+
